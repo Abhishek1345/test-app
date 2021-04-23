@@ -1,0 +1,18 @@
+.car{
+    width: 100px;
+    height: 40px;
+    background:red;
+    margin:0 auto;
+    position: relative;
+}
+.car::before{
+    content:"";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background:gray;
+    border:10px black solid;
+    left:5px;
+    top:100%;
+    border-radius: 50%;
+}
